@@ -4,6 +4,10 @@ img.map {
     width: 80vw;
 }
 
+img.gear {
+    width: 40vw;
+}
+
 h1.navbar {
     font-family: 'Roboto', sans-serif;
 }
@@ -111,3 +115,26 @@ td.data {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #f1f1f1;}
 .dropbtn:hover {background-color: #f1f1f1}
+
+@media screen and (max-width: 600px) {
+    h1.navbar {
+        font-size: 5vw;
+    }
+    h2.navbar {
+        font-size: 4vw;
+    }
+    p {
+        font-size: 2vw;
+    }
+    .dropbtn {
+        height: 8vw;
+        font-size: 3vw;
+    }
+    .dropbtn-light {
+        height: 8vw;
+        font-size: 3vw;
+    }
+    p.main {
+        font-size: 3vw;
+    }
+}
