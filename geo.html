@@ -46,13 +46,25 @@
         </tr>
     </table>
 </header>
-<p></p>
+<p class="main">Зона покрытия наших транспортных сетей</p>
+<p style="text-align: center">Выберете город на карте снизу для подробной информации</p>
+<script type="text/javascript" src="js/geo.js"></script>
 <table class="gmap">
     <tr>
         <td>
-            <img class="map" src="img/map.png" alt="Карта">
+            <div class="img-holder">
+                <img class="map" src="img/map.png" alt="Карта">
+                <button class="b1" onclick="b1()"></button>
+                <button class="b2" onclick="b2()"></button>
+                <button class="b3" onclick="b3()"></button>
+                <button class="b4" onclick="b4()"></button>
+                <button class="b5" onclick="b5()"></button>
+                <button class="b6" onclick="b6()"></button>
+                <button class="b7" onclick="b7()"></button>
+            </div>
         </td>
     </tr>
 </table>
+<p class="main" id="city">Москва</p>
 </body>
 </html>
