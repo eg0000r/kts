@@ -6,50 +6,20 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 <body>
-<header>
-    <table class="navbar-head">
-        <tr>
-            <td style="text-align: left">
-                <h1 class="navbar">Комплексные Торговые Системы</h1>
-            </td>
-            <td style="text-align: right">
-                <h2 class="navbar"><a href="tel:+74957419585">+7(495)741-95-85</a></h2>
-            </td>
-        </tr>
-    </table>
-    <table class="navbar">
-        <tr>
-            <td>
-                <button class="dropbtn" onclick="window.location.href = 'index.html'">о компании</button>
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn">оборудование</button>
-                    <div class="dropdown-content">
-                        <a href="#">вагоны-термоса</a>
-                        <a href="gear.html">реф-контейнеры</a>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <button class="dropbtn" onclick="window.location.href = 'geo.html'">география</button>
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn-light" onclick="window.location.href = 'contacts.html'">контакты</button>
-                    <div class="dropdown-content">
-                        <a href="#">Оставить заявку</a>
-                    </div>
-                </div>
-            </td>
-        </tr>
-    </table>
-</header>
+<div id="header"></div>
 <p class="main">Москва, Верейская улица 17</p>
 <p align="center">
 <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3f7d8d30fd4973ec67a67aab95d1dd9a235c561da9d7c41bd372ef49f3ec3f06&amp;source=constructor" width="80%" height="400" frameborder="0"></iframe>
 </p>
+<div id="footer"></div>
 </body>
 </html>

@@ -6,60 +6,16 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="css/styles.css">
     <title>О компании</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 <body>
-<header>
-    <table class="navbar-head">
-        <tr>
-            <td style="text-align: left; vertical-align: top">
-                <img src="img/kts_logo.png" alt="logo" class="logo">
-            </td>
-            <td style="vertical-align: center">
-                <h1 class="navbar">Комплексные Торговые Системы</h1>
-            </td>
-            <td style="text-align: right">
-                <h2 class="navbar"><a href="tel:+74957419585">+7(495)741-95-85</a></h2>
-            </td>
-        </tr>
-    </table>
-    <table class="navbar">
-        <tr>
-            <td>
-                <button class="dropbtn-light" onclick="window.location.href = 'index.html'">о компании</button>
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn">оборудование</button>
-                    <div class="dropdown-content">
-                        <a href="#">вагоны-термоса</a>
-                        <a href="gear.html">реф-контейнеры</a>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <button class="dropbtn" onclick="window.location.href = 'geo.html'">география</button>
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn" onclick="window.location.href = 'contacts.html'">контакты</button>
-                    <div class="dropdown-content">
-                        <a href="#">Оставить заявку</a>
-                    </div>
-                </div>
-            </td>
-        </tr>
-    </table>
-    <div style="background-color: #717171"><p style="font-size: 1px"><br></p></div>
-</header>
-<footer>
-    <div style="background-color: #717171"><p style="font-size: 1px"><br></p></div>
-    <table>
-        <tr>
-            <td>
-                <p>©Комплексные торговые Системы<br>Все права защищениы.</p>
-            </td>
-        </tr>
-    </table>
-</footer>
+<div id="header"></div>
+<div id="footer"></div>
 </body>
 </html>
