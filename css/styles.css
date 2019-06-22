@@ -272,7 +272,7 @@ td.data {
 }
 
 img.logo {
-    width: 20vw;
+    width: 10vw;
 }
 
 /* Change color of dropdown links on hover */
@@ -320,5 +320,8 @@ p.footer {
     }
     p.main {
         font-size: 3vw;
+    }
+    img.logo {
+        width: 50vw;
     }
 }
