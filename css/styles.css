@@ -118,7 +118,7 @@ td.data {
     bottom: 11.3vw; /*your button position*/
     right: 4.25vw; /*your button position*/
     border-radius: 50%;
-    background-color: transparent;
+    background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
     outline-style: none;
@@ -127,9 +127,10 @@ td.data {
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
+    animation: b-glow infinite 2s linear;
 }
 .b1:hover {
-    background-color: rgba(100, 0, 0, 0.5);
+    animation: none;
 }
 .img-holder .b2 {
     width: 2vw;
@@ -138,7 +139,7 @@ td.data {
     bottom: 15vw; /*your button position*/
     right: 5vw; /*your button position*/
     border-radius: 50%;
-    background-color: transparent;
+    background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
     outline-style: none;
@@ -147,9 +148,10 @@ td.data {
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
+    animation: b-glow infinite 2s linear;
 }
 .b2:hover {
-    background-color: rgba(100, 0, 0, 0.5);
+    animation: none;
 }
 .img-holder .b3 {
     width: 2vw;
@@ -158,7 +160,7 @@ td.data {
     bottom: 18.5vw; /*your button position*/
     right: 37vw; /*your button position*/
     border-radius: 50%;
-    background-color: transparent;
+    background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
     outline-style: none;
@@ -167,9 +169,10 @@ td.data {
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
+    animation: b-glow infinite 2s linear;
 }
 .b3:hover {
-    background-color: rgba(100, 0, 0, 0.5);
+    animation: none;
 }
 .img-holder .b4 {
     width: 2vw;
@@ -178,7 +181,7 @@ td.data {
     bottom: 21vw; /*your button position*/
     right: 68vw; /*your button position*/
     border-radius: 50%;
-    background-color: transparent;
+    background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
     outline-style: none;
@@ -187,9 +190,10 @@ td.data {
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
+    animation: b-glow infinite 2s linear;
 }
 .b4:hover {
-    background-color: rgba(100, 0, 0, 0.5);
+    animation: none;
 }
 .img-holder .b5 {
     width: 2vw;
@@ -198,7 +202,7 @@ td.data {
     bottom: 6.7vw; /*your button position*/
     right: 58vw; /*your button position*/
     border-radius: 50%;
-    background-color: transparent;
+    background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
     outline-style: none;
@@ -207,9 +211,10 @@ td.data {
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
+    animation: b-glow infinite 2s linear;
 }
 .b5:hover {
-    background-color: rgba(100, 0, 0, 0.5);
+    animation: none;
 }
 .img-holder .b6 {
     width: 2vw;
@@ -218,7 +223,7 @@ td.data {
     bottom: 6vw; /*your button position*/
     right: 67.7vw; /*your button position*/
     border-radius: 50%;
-    background-color: transparent;
+    background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
     outline-style: none;
@@ -227,9 +232,10 @@ td.data {
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
+    animation: b-glow infinite 2s linear;
 }
 .b6:hover {
-    background-color: rgba(100, 0, 0, 0.5);
+    animation: none;
 }
 .img-holder .b7 {
     width: 5vw;
@@ -238,7 +244,7 @@ td.data {
     bottom: 7vw; /*your button position*/
     right: 44vw; /*your button position*/
     border-radius: 50%;
-    background-color: transparent;
+    background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
     outline-style: none;
@@ -247,9 +253,21 @@ td.data {
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
+    animation: b-glow infinite 2s linear;
 }
 .b7:hover {
-    background-color: rgba(100, 0, 0, 0.5);
+    animation: none;
+}
+@keyframes b-glow {
+    0% {
+        background-color: rgba(100, 0, 0, 0);
+    }
+    50% {
+        background-color: rgba(100, 0, 0, 0.5);
+    }
+    100% {
+        background-color: rgba(100, 0, 0, 0);
+    }
 }
 
 /* Change color of dropdown links on hover */
