@@ -114,6 +114,7 @@ td.data {
 .img-holder .b1 {
     width: 2vw;
     height: 2vw;
+    min-width: 0;
     position: absolute;
     bottom: 11.3vw; /*your button position*/
     right: 4.25vw; /*your button position*/
