@@ -124,6 +124,7 @@ td.data {
     background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
+    border-style: solid;
     outline-style: none;
     cursor: pointer;
     -webkit-transition: all 0.3s ease;;
@@ -145,6 +146,7 @@ td.data {
     background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
+    border-style: solid;
     outline-style: none;
     cursor: pointer;
     -webkit-transition: all 0.3s ease;;
@@ -166,6 +168,7 @@ td.data {
     background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
+    border-style: solid;
     outline-style: none;
     cursor: pointer;
     -webkit-transition: all 0.3s ease;;
@@ -187,6 +190,7 @@ td.data {
     background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
+    border-style: solid;
     outline-style: none;
     cursor: pointer;
     -webkit-transition: all 0.3s ease;;
@@ -208,6 +212,7 @@ td.data {
     background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
+    border-style: solid;
     outline-style: none;
     cursor: pointer;
     -webkit-transition: all 0.3s ease;;
@@ -229,6 +234,7 @@ td.data {
     background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
+    border-style: solid;
     outline-style: none;
     cursor: pointer;
     -webkit-transition: all 0.3s ease;;
@@ -250,6 +256,7 @@ td.data {
     background-color: rgba(100, 0, 0, 0.5);
     border-width: medium;
     border-color: black;
+    border-style: solid;
     outline-style: none;
     cursor: pointer;
     -webkit-transition: all 0.3s ease;;
