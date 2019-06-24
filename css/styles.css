@@ -295,10 +295,10 @@ p.footer {
 
 @media screen and (max-width: 600px) {
     h1.navbar {
-        font-size: 5vw;
+        font-size: 3vw;
     }
     h2.navbar {
-        font-size: 4vw;
+        font-size: 2vw;
     }
     p {
         font-size: 2vw;
@@ -315,6 +315,6 @@ p.footer {
         font-size: 3vw;
     }
     img.logo {
-        width: 50vw;
+        width: 10vw;
     }
 }
