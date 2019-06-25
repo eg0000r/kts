@@ -57,9 +57,7 @@ table.data {
 }
 
 td.data {
-    border-color: darkgray;
-    border-style: dotted;
-    border-width: thin;
+    background-color: whitesmoke;
 }
 
 /* Dropdown Button */
